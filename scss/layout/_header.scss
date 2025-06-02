@@ -1,0 +1,80 @@
+.header {
+}
+.header__container {
+}
+.container {
+}
+.header__content {
+  display: flex;
+  position: relative;
+  top: -5rem;
+  left: -20rem;
+}
+.site__logos {
+  position: relative;
+  top: 2rem;
+  width: 25rem;
+  height: 20rem;
+}
+.site__title {
+  position: relative;
+  top: 10rem;
+  right: 6rem;
+  font-size: 3rem;
+}
+.header__centr {
+  display: flex;
+  position: relative;
+  left: 30rem;
+  bottom: 13rem;
+  width: 15rem;
+  border-radius: 1.2rem;
+}
+.header__centr__search {
+}
+.search__header {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 1.2rem;
+  padding-left: 0.5rem;
+  position: relative;
+  bottom: 1rem;
+}
+.site__categories {
+}
+.categories__hidden {
+  visibility: hidden;
+}
+.header__categories {
+  position: relative;
+  left: 10rem;
+  bottom: 1.3rem;
+  font-size: 3rem;
+  color: black;
+
+  &:hover {
+    .categories__hidden {
+      visibility: visible;
+      background-color: whitesmoke;
+    }
+  }
+}
+.site__login__link {
+  position: relative;
+  left: 40rem;
+  font-size: 2rem;
+  bottom: 1.5rem;
+  border: 1px solid black;
+  border-radius: 1.2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  color: black;
+  transition: 0.4s;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
